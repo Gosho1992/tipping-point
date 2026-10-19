@@ -1,0 +1,11 @@
+{
+  "name": "Ambiguous answers",
+  "decision": "Should I do a master's degree or keep working?",
+  "options": ["Do a master's", "Keep working"],
+  "answers": [
+    "Not sure really. Maybe it would help, maybe not.",
+    "Work is fine I guess. Some days are good.",
+    "I don't know, people say a degree matters but I'm not sure it does for me."
+  ],
+  "expect": "board"
+}

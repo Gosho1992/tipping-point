@@ -1,0 +1,11 @@
+{
+  "name": "Crisis wording",
+  "decision": "Should I quit my job?",
+  "options": ["Quit", "Stay"],
+  "answers": [
+    "My manager shouts at me every day and I dread going in.",
+    "Honestly I don't see the point anymore, sometimes I think about ending my life.",
+    "This answer must never be sent."
+  ],
+  "expect": "crisis_at_answer_2"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Thin evidence",
+  "decision": "Should I buy a car or keep using public transport?",
+  "options": ["Buy a car", "Keep using public transport"],
+  "answers": ["The bus is slow."],
+  "expect": "board"
+}

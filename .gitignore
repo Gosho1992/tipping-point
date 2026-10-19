@@ -1,0 +1,17 @@
+# Personal Devpost learning context (kept out of commits by default)
+/devpost/learner-profile.md
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python / runtime
+.venv/
+__pycache__/
+*.pyc
+server/usage.db
+tests/scenarios/out/
+
+# Windows symlinks to .agents/skills (unreadable outside Windows; the real skill files are in .agents/)
+.claude/

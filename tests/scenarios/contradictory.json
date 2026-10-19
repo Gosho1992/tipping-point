@@ -1,0 +1,11 @@
+{
+  "name": "Contradictory preferences",
+  "decision": "Should I stay in my hometown or move to the capital?",
+  "options": ["Stay in my hometown", "Move to the capital"],
+  "answers": [
+    "I want stability and to be near my friends, but I also crave adventure and new people.",
+    "The capital has more jobs in my field. But I hate crowds and noise.",
+    "Rent at home is cheap. In the capital I'd spend half my salary on rent, but I'd earn more."
+  ],
+  "expect": "board"
+}
