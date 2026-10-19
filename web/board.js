@@ -147,10 +147,10 @@ export function boardView(go) {
           if (!editor.hidden && c.score == null) { applyScore(c, Number(range.value)); }
         });
         range.addEventListener('input', () => applyScore(c, Number(range.value)));
-        td.append(scoreBtn,
+        td.append(...[scoreBtn,
           c.reason ? h('p', { class: 'reason' }, c.reason) : null,
           c.cites.length ? citeChips(`cell-${key}`, c.cites) : null,
-          note, editor);
+          note, editor].filter(Boolean));
         cellRefs.push({ c, scoreBtn, note });
         return td;
       }),
