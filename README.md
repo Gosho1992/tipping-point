@@ -18,14 +18,23 @@ What the guardrails can't do: a valid citation proves the source exists, not tha
 
 ## Run it locally
 
-Needs Python 3.10+ and an OpenAI API key.
+You need Python 3.10+ ([python.org](https://www.python.org/downloads/); on Windows tick **Add python.exe to PATH**) and an OpenAI API key.
+
+**One click**
+
+1. Click **Code → Download ZIP** on GitHub and unzip it (or `git clone` the repo).
+2. Windows: double-click **`start.bat`**. macOS/Linux: run `./start.sh`.
+3. The first time, paste your OpenAI API key when asked. It's saved only in `.env` on your computer.
+4. Your browser opens Tipping Point. Click **Try Ayesha's example** for a ready-made career decision. Close the black window to stop.
+
+**By hand**
 
 1. `python -m venv .venv`
 2. Activate it — Windows: `.venv\Scripts\activate` · macOS/Linux: `source .venv/bin/activate`
 3. `pip install -r requirements.txt`
 4. Copy `.env.example` to `.env` and put your key after `OPENAI_API_KEY=`
 5. `uvicorn server.main:app --no-access-log`
-6. Open <http://localhost:8000>, or click **Try Ayesha's example** for a ready-made career decision.
+6. Open <http://localhost:8000>
 
 ## Tests
 
